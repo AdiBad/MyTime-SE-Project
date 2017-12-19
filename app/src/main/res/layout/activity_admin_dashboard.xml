@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mytime.snu.com.mytime.AdminDashboardActivity"
+    android:background="@color/appBg">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBg"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+<!--
+    <View
+        android:id="@+id/separator1"
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/loginBtnColor"
+        android:layout_marginTop="5sp"
+        android:layout_alignParentTop="true"/>
+-->
+    <LinearLayout
+        android:id="@+id/layoutTxtDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5sp">
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTint="@color/colorAccent"
+            android:text="Pick a date below:"
+            android:textSize="22sp"
+            android:textColor="@color/colorAccent"/>
+    </LinearLayout>
+<!--
+    <View
+        android:id="@+id/separator2"
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/loginBtnColor"
+        android:layout_below="@id/layoutTxtDate"/>
+-->
+
+    <RelativeLayout
+        android:id="@+id/layoutCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/separator5"
+        android:layout_below="@id/layoutTxtDate"
+        android:layout_margin="10sp">
+
+        <CalendarView
+            android:id="@+id/pickDate"
+            android:layout_width="match_parent"
+            android:layout_height="325sp"
+            android:background="@color/calendarBg"
+            android:layout_margin="0sp"/>
+    </RelativeLayout>
+    <View
+        android:id="@+id/separator5"
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/loginBtnColor"
+        android:layout_above="@id/layoutPickTime"/>
+
+    <LinearLayout
+        android:id="@+id/layoutPickTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_margin="5sp"
+        android:layout_above="@id/separator6"
+        android:orientation="horizontal"
+        android:padding="5sp">
+        <TextView
+            android:id="@+id/pickTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:text="Intervals of slots: 0.5 hours"
+            android:textColor="@color/appBg"
+            android:textSize="22sp"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/separator6"
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/loginBtnColor"
+        android:layout_above="@id/btnSearch"/>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/search_btn_style"
+        android:layout_margin="10sp"
+        android:padding="10sp"
+        android:text="Find a Slot!"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
+</ScrollView>

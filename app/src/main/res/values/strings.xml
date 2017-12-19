@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyTime</string>
+    <string name="spinner_prompt">Select a time interval</string>
+
+    <string-array name="time_intervals">
+        <item>"0.5 hours"</item>
+        <item>"1 hour"</item>
+        <item>"1.5 hours"</item>
+        <item>"2 hours"</item>
+        <item>"2.5 hours"</item>
+        <item>"3 hours"</item>
+    </string-array>
+</resources>

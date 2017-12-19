@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="275sp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_margin="10sp"
+        android:padding="5sp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layoutDetails"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:orientation="vertical"
+                android:padding="5sp"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="5sp"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0sp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:gravity="center_vertical"
+                        android:text="From:"
+                        android:textColor="@color/appBg"
+                        android:textSize="18sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:id="@+id/txtFromTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="0sp"
+                        android:layout_weight="3"
+                        android:fontFamily="casual"
+                        android:gravity="center"
+                        android:text="08:00"
+                        android:textColor="@color/WHITE"
+                        android:textSize="25sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/separator1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1sp"
+                    android:background="@color/appBg"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0sp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:gravity="center_vertical"
+                        android:text="To:"
+                        android:textColor="@color/appBg"
+                        android:textSize="18sp"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:id="@+id/txtToTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="0sp"
+                        android:layout_weight="3"
+                        android:fontFamily="casual"
+                        android:gravity="center"
+                        android:text="20:00"
+                        android:textColor="@color/WHITE"
+                        android:textSize="25sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="3.5"
+                android:orientation="vertical"
+                android:padding="5sp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="5sp"
+                    android:weightSum="5">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0sp"
+                        android:layout_weight="2"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Course Code:"
+                        android:textColor="@color/WHITE"
+                        android:textStyle="italic"/>
+
+                    <View
+                        android:id="@+id/separator2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5sp"
+                        android:background="@color/appBg"/>
+
+                    <TextView
+                        android:id="@+id/txtCourseCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="0sp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:maxLength="6"
+                        android:paddingBottom="7sp"
+                        android:text="Code"
+                        android:textColor="@color/appBg"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="5sp"
+                    android:weightSum="5">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0sp"
+                        android:layout_weight="2"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Course Name:"
+                        android:textColor="@color/WHITE"
+                        android:textStyle="italic"/>
+
+                    <View
+                        android:id="@+id/separator3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5sp"
+                        android:background="@color/appBg"/>
+
+                    <TextView
+                        android:id="@+id/txtCourseName"
+                        android:layout_width="match_parent"
+                        android:layout_height="0sp"
+                        android:layout_weight="3"
+                        android:maxLength="20"
+                        android:paddingBottom="7sp"
+                        android:text="Course Name"
+                        android:gravity="center"
+                        android:textColor="@color/appBg"
+                        android:textSize="19sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="5sp"
+                    android:weightSum="5">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0sp"
+                        android:layout_weight="2"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Venue:"
+                        android:textColor="@color/WHITE"
+                        android:textStyle="italic"/>
+
+                    <View
+                        android:id="@+id/separator4"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5sp"
+                        android:background="@color/appBg"/>
+
+                    <TextView
+                        android:id="@+id/txtVenue"
+                        android:layout_width="match_parent"
+                        android:layout_height="0sp"
+                        android:layout_weight="3"
+                        android:maxLength="4"
+                        android:gravity="center"
+                        android:paddingBottom="7sp"
+                        android:text="Room"
+                        android:textColor="@color/appBg"
+                        android:textSize="19sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="5sp"
+                    android:weightSum="5">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0sp"
+                        android:layout_weight="2"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Instructor:"
+                        android:textColor="@color/WHITE"
+                        android:textStyle="italic"/>
+
+                    <View
+                        android:id="@+id/separator5"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5sp"
+                        android:background="@color/appBg"/>
+
+                    <TextView
+                        android:id="@+id/txtInstructor"
+                        android:layout_width="match_parent"
+                        android:layout_height="0sp"
+                        android:layout_weight="3"
+                        android:maxLength="20"
+                        android:gravity="center"
+                        android:paddingBottom="7sp"
+                        android:text="Instructor's Name"
+                        android:textColor="@color/appBg"
+                        android:textSize="19sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutTweaks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imgEdit"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/back"
+                android:paddingTop="20sp"
+                android:paddingBottom="20sp"
+                android:layout_margin="10sp"
+                android:src="@drawable/edit_icon"/>
+
+            <ImageView
+                android:id="@+id/imgDelete"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/back"
+                android:paddingTop="20sp"
+                android:paddingBottom="20sp"
+                android:layout_margin="10sp"
+                android:src="@drawable/delete_icon"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

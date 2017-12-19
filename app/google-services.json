@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "718917433090",
+    "firebase_url": "https://mytime-aans.firebaseio.com",
+    "project_id": "mytime-aans",
+    "storage_bucket": "mytime-aans.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718917433090:android:ac466f6656712451",
+        "android_client_info": {
+          "package_name": "mytime.snu.com.mytime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718917433090-090c8c9l3mvdckr7l935kdau85ia51gt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbBCitLjQWw14Xs1WTlAP8W_sfmjo5zf4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

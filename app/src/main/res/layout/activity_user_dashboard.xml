@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mytime.snu.com.mytime.UserDashboardActivity"
+    android:background="@color/appBg"
+    android:gravity="center">
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnLayout"/>
+
+    <LinearLayout
+        android:id="@+id/btnLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible">
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="15sp"
+        android:layout_below="@+id/piechart"
+        android:background="@drawable/search_btn_style"
+        android:text="Add"
+        android:textColor="@color/appBg"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="15sp"
+        android:layout_below="@+id/btnEditAdd"
+        android:background="@drawable/search_btn_style"
+        android:text="View"
+        android:textColor="@color/appBg"
+        android:visibility="visible"/>
+    </LinearLayout>
+
+</RelativeLayout>

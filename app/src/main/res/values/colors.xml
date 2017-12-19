@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Default Theme-->
+<!--
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+-->
+
+    <!--MyAppColorTheme1-->
+<!--
+    <color name="colorPrimary">#677077</color>
+    <color name="colorPrimaryDark">#252839</color>
+    <color name="colorAccent">#F2B632</color>
+-->
+
+    <!--MyAppColorTheme2-->
+<!--
+    <color name="colorPrimary">#6ED3CF</color>
+    <color name="colorPrimaryDark">#9068BE</color>
+    <color name="colorAccent">#E62739</color>
+    <color name="extra">#E1E8F0</color>
+-->
+
+    <!--MyAppColorTheme3-->
+<!--
+    <color name="colorPrimary">#3fb0ac</color>
+    <color name="colorPrimaryDark">#173e43</color>
+    <color name="colorAccent">#fae596</color>
+    <color name="extra">#dddfd4</color>
+-->
+
+    <!--MyAppColorTheme4-->
+<!--
+    <color name="colorPrimary">#68829e</color>
+    <color name="colorPrimaryDark">#505160</color>
+    <color name="colorAccent">#598234</color>
+    <color name="extra">#aebd38</color>
+-->
+
+    <!--MyAppColorTheme5-->
+<!--
+    <color name="colorPrimary">#66a5ad</color>
+    <color name="colorPrimaryDark">#003b46</color>
+    <color name="colorAccent">#07575b</color>
+    <color name="extra">#c4dfe6</color>
+-->
+
+    <!--MyAppColorTheme6-->
+<!--
+    <color name="colorPrimary">#f98866</color>
+    <color name="colorPrimaryDark">#ff420e</color>
+    <color name="colorAccent">#80bd9e</color>
+    <color name="extra">#89da59</color>
+-->
+
+    <!--MyAppColorTheme7-->
+<!--
+    <color name="colorPrimary">#3D91D5</color>
+    <color name="colorPrimaryDark">#1D4986</color>
+    <color name="colorAccent">#86BBE5</color>
+    <color name="extra">#FFE274</color>
+-->
+
+
+    <!--MyAppColorTheme8: OK-->
+<!--
+    <color name="colorPrimary">#E7B607</color>
+    <color name="colorPrimaryDark">#BC9506</color>
+    <color name="colorAccent">#B1393A</color>
+    <color name="extra">#D3CDB3</color>
+-->
+
+    <!--MyAppColorTheme9: OK-->
+<!--
+    <color name="colorPrimary">#8F4295</color>
+    <color name="colorPrimaryDark">#723F77</color>
+    <color name="colorAccent">#1D4986</color>
+    <color name="extra">#D8D48B</color>
+-->
+
+    <!--MyAppColorTheme10: OK-->
+<!--
+    <color name="colorPrimary">#ED1A3D</color>
+    <color name="colorPrimaryDark">#AD1A33</color>
+    <color name="colorAccent">#00B2CC</color>
+    <color name="extra">#D3CDB3</color>
+-->
+
+    <!--MyAppColorTheme11: OK-->
+<!--
+    <color name="colorPrimary">#e0770e</color>
+    <color name="colorPrimaryDark">#011a27</color>
+    <color name="colorAccent">#063852</color>
+    <color name="extra">#e6df44</color>
+-->
+
+    <!--MyAppColorTheme12: OK-->
+    <color name="colorPrimary">#598234</color>
+    <color name="colorPrimaryDark">#252839</color>
+    <color name="colorAccent">#505160</color>
+    <color name="appBg">#dddfd4</color>
+
+
+    <color name="edittextBg">#99ffffff</color>
+    <color name="calendarBg">#99598234</color>
+    <color name="cardBg">#cc252839</color>
+    <color name="searchBtnColor">@color/colorPrimaryDark</color>
+    <color name="loginBtnColor">#b3000000</color>
+    <color name="BLACK">#000000</color>
+    <color name="WHITE">#ffffff</color>
+</resources>

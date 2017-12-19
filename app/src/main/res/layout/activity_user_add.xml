@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mytime.snu.com.mytime.UserAddActivity"
+    android:background="@color/appBg"
+    android:padding="10sp">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layoutCourseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvCourseName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:layout_margin="5sp"
+                android:paddingTop="3sp"
+                android:text="Course Name"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/courseName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:layout_margin="3sp"
+                android:background="@drawable/edittext_bg"
+                android:gravity="center_vertical"
+                android:padding="10sp"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/separator1"
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="@color/loginBtnColor"
+            android:layout_below="@id/layoutCourseName"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"/>
+
+        <LinearLayout
+            android:id="@+id/layoutCourseCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/separator1"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvCourseCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:layout_margin="5sp"
+                android:paddingTop="3sp"
+                android:text="Course Code"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/courseCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:layout_margin="3sp"
+                android:background="@drawable/edittext_bg"
+                android:gravity="center_vertical"
+                android:padding="10sp"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/separator4"
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="@color/loginBtnColor"
+            android:layout_below="@id/layoutCourseCode"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"/>
+
+
+        <LinearLayout
+            android:id="@+id/layoutInstructor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/separator4"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvInstructor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:layout_margin="5sp"
+                android:paddingTop="3sp"
+                android:text="Instructor"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/instructor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:layout_margin="3sp"
+                android:background="@drawable/edittext_bg"
+                android:gravity="center_vertical"
+                android:padding="10sp"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/separator2"
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="@color/loginBtnColor"
+            android:layout_below="@id/layoutInstructor"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"/>
+
+        <LinearLayout
+            android:id="@+id/layoutRoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/separator2"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvRoomNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:layout_margin="5sp"
+                android:paddingTop="3sp"
+                android:text="Room Number"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/roomNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:layout_margin="3sp"
+                android:background="@drawable/edittext_bg"
+                android:gravity="center_vertical"
+                android:padding="10sp"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/separator3"
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="@color/loginBtnColor"
+            android:layout_below="@id/layoutRoom"
+            android:layout_marginTop="8sp"
+            android:layout_marginBottom="8sp"/>
+
+        <LinearLayout
+            android:id="@+id/layoutTimes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/separator3"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tvTimeFrom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0sp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:layout_margin="5sp"
+                    android:paddingTop="3sp"
+                    android:text="From"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp"/>
+                <Spinner
+                    android:id="@+id/listFromTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tvTimeTo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0sp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:layout_margin="5sp"
+                    android:paddingTop="3sp"
+                    android:text="To"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp"/>
+                <Spinner
+                    android:id="@+id/listToTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAddClass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_btn_style"
+            android:layout_below="@id/layoutTimes"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginTop="20sp"
+            android:padding="10sp"
+            android:text="Add Class!"
+            android:textSize="22sp"
+            android:textColor="#ffffff"/>
+
+    </RelativeLayout>
+</ScrollView>
